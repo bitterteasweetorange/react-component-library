@@ -20,7 +20,7 @@
     "cypress:open": "cypress open",
     "dev": "rm -rf dist/ && rollup -c -w",
     "storybook": "storybook dev -p 6006",
-    "test": "jest && cypress run"
+    "test": "jest && cypress run && cypress run --component"
   },
   "author": "orange",
   "description": "a react component library with typescript",

@@ -7,4 +7,11 @@ export default defineConfig({
       bundler: 'vite',
     },
   },
+
+  e2e: {
+    baseUrl: 'http://localhost:6006/iframe.html?path=/story/',
+    setupNodeEvents() {
+      // implement node event listeners here
+    },
+  },
 })

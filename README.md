@@ -2,7 +2,6 @@
 
 - React
 - TypeScript
-- Jest
 - Cypress
 - StoryBook
 - CI

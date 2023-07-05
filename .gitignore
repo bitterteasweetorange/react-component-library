@@ -4,3 +4,6 @@ node_modules/
 /cypress/videos
 /cypress/fixtures
 /cypress/screenshots
+/test-results/
+/playwright-report/
+/playwright/.cache/

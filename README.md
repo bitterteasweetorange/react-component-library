@@ -2,7 +2,7 @@
 
 - React
 - TypeScript
-- Cypress
 - StoryBook
 - CI
 - Eslint & Prettier
+- playwright

@@ -1,8 +1,0 @@
-{
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "sourceMap": false
-  }
-}
-
-// https://github.com/cypress-io/cypress/issues/26203

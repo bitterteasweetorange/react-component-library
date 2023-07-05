@@ -7,11 +7,11 @@ export type ButtonProps = PropsWithChildren<{
    * */
   variant?: 'primary' | 'secondary'
 }>
-export function Button(props: ButtonProps) {
+
+export function Button({ children, variant = 'primary' }: ButtonProps) {
   return (
     <button>
-      {props.children}
-      {props.variant}
+      {children}-{variant}
     </button>
   )
 }

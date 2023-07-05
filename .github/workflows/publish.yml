@@ -27,7 +27,6 @@ jobs:
         with:
           path: |
             ~/setup-pnpm/node_modules/.bin/store
-            ~/.cache/Cypress
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
@@ -36,9 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Test
-        uses: cypress-io/github-action@v5
-        with:
-          component: true
+        run: pnpm test
 
       - name: Build
         run: pnpm build

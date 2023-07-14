@@ -1,6 +1,6 @@
 {
   "name": "react-component-library-typescript",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/src/index.d.ts",
@@ -29,6 +29,7 @@
     "typescript",
     "react",
     "rollup",
+    "playwright",
     "storybook"
   ],
   "license": "MIT",
